@@ -1,0 +1,21 @@
+图文识别功能    ollama run llama3.2-vision:11b
+日常使用 （通义千问）               ollama run qwen:7b
+代码处理                            ollama run codellama:7b
+
+
+启动前端  http-server
+
+Open WebUI 127.0.0.1:3000
+
+端口映射 ngrok http 端口号
+
+
+geth启动
+geth --datadir "." --dev --dev.period 2 --http --http.api eth,web3,net --http.corsdomain "http://remix.ethereum.org" --password password.txt --http.port 8889
+
+
+python 国内下载源 （豆瓣）
+pip install 依赖包  -i https://pypi.douban.com/simple/
+
+访问github
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --host-rules="MAP github.com octocaptcha.com, MAP github.githubassets.com yelp.com, MAP *.githubusercontent.com githubusercontent.com" --host-resolver-rules="MAP octocaptcha.com 20.27.177.113, MAP yelp.com 199.232.240.116, MAP githubusercontent.com 199.232.176.133"
