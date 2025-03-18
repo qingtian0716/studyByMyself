@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 )
-
+//下次删除
 func calculateJ(x, y int) float64 {
 	var j float64
 	if x > 60 && y < 35 {
@@ -17,6 +17,7 @@ func calculateJ(x, y int) float64 {
 	return j
 }
 func main() {
+
 	var x, y int
 	fmt.Print("请输入x值: ")
 	fmt.Scanln(&x)
