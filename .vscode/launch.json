@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "调试 001.js",
+            "program": "${workspaceFolder}/study by clss/001.js",
+            "skipFiles": ["<node_internals>/**"]
+        }
+    ]
+}
